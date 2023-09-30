@@ -12,7 +12,7 @@ function divisibleByTwo(x) {
 
 function largestNum(arr)  {
   let largestNum = arr[0];
-  for (i = 0; i <= arr.length - 1; i++) {
+  for (let i = 0; i <= arr.length - 1; i++) {
     if (arr[i] > largestNum) {
       largestNum = arr[i];
     }    
